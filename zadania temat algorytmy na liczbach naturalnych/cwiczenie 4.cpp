@@ -9,7 +9,7 @@ int main(){
         cout << "Uczniowie klasy " << klasa << ": ";
         klasa = klasa + 1;
         cin >> l_u;
-        if (l_u % 6 || l_u == 6)
+        if (l_u % 6)
         {
             l_g = l_u / 6;
             cout << "Liczba grup: " << l_g << endl;
